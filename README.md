@@ -1,6 +1,5 @@
 # NeckPass
-The files in this repository are for the USENIX 2026 paper:
-NeckPass: Passive Authentication by Neck Cardiac Ballistocardiogram Biometrics in Virtual Reality/Augmented Reality Systems
+The files in this repository are for the USENIX 2026 paper: NeckPass: Passive Authentication by Neck Cardiac Ballistocardiogram Biometrics in Virtual Reality/Augmented Reality Systems
 
 We provide the following three compressed data packages:
 1. **ExperimentalResults**: This package contains the data sources for all scenarios presented in the paper. It includes processed data and trained models. For each scenario, simply `python run.py` to obtain the data results shown in the paper.
