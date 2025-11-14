@@ -1,5 +1,5 @@
 # NeckPass
-The files in this repository are for the paper: **NeckPass: Effortless Authentication for VR/AR Systems via Neck Ballistocardiogram Biometric**
+The files in this repository are for the paper: **NeckPass**
 
 We provide the following three compressed data packages:
 1. **ExperimentalResults**: This package contains the data sources for all scenarios presented in the paper. It includes processed data and trained models. For each scenario, simply `python run.py` to obtain the data results shown in the paper.
@@ -74,5 +74,6 @@ lib
 **Step 4.** For each scenario (paper section), the folder contains two files: `dataset.py` and `run.py`. Running these two files allows you to download the original dataset (named `Dataset_NeckPass`) and trained authentication models (`Model_Am`) from the cloud and locally obtain the results, consistent with those provided in `Result.xlsx` and in the paper. The corresponding commands are as follows:
 > `python dataset.py`
 > `python run.py`
+
 
 **If you encounter any difficulties, please don't hesitate to reach out for assistance. Thank you sincerely for your interest, time and patience.**
