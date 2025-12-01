@@ -21,25 +21,22 @@ lib
 8.3.1_ImpactsofSingle-sideController
 ├── dataset.py
 └── run.py
-8.3.2_ImpactsofIntensePhysicalActivity
+8.3.2_ImpactsofBiometricLong-termVariability
 ├── dataset.py
 └── run.py
-8.3.3_ImpactsofDynamicBehavior
+8.3.3_ImpactsofXRDevices
 ├── dataset.py
 └── run.py
-8.3.4_ImpactsofBiometricLong-termVariability
+8.3.4_ImpactsofGenetics
 ├── dataset.py
 └── run.py
-8.3.5_ImpactsofVRDevices
+8.3.5_ImpactsofVotingMechanism
 ├── dataset.py
 └── run.py
-8.3.6_ImpactsofGenetics
+8.3.6_ImpactsofHeartRateVariations
 ├── dataset.py
 └── run.py
-8.3.7_ImpactsofVotingMechanism
-├── dataset.py
-└── run.py
-8.3.8_EvaluationofComputationalDelay
+8.3.7_EvaluationofComputationalDelay
 ├── Authentication
 │   ├── dataset.py
 │   └── run.py
