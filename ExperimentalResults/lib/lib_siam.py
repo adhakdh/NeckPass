@@ -51,6 +51,13 @@ class SiameseNetwork(nn.Module):
 
 
 
+def get_model_path(model_path = "Overall"):
+    all_dir =  os.listdir("../")
+    for i in all_dir:
+        if model_path in i:
+            return os.path.join("../", i)
+    return ""
+
 def cal_mse(data):
     mean_vector = np.mean(data, axis=0)
     cosine_similarities = []

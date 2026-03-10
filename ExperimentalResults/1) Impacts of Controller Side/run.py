@@ -7,7 +7,7 @@ import numpy as np
 from torch.utils.data import DataLoader, Dataset
 import torch.nn.functional as F
 import torch.nn as nn
-from lib_siam import SiameseNetwork
+from lib_siam import SiameseNetwork, get_model_path
 import torch
 import shutil
 
@@ -88,17 +88,10 @@ def get_paired(pos_list, num_time=2):
             final_pos_list.append(0)
     return final_pos_list
 
-def get_model_path(model_path):
-    all_dir =  os.listdir("../")
-    for i in all_dir:
-        if model_path in i:
-            return os.path.join("../", i)
-    return ""
-
 
 if __name__ == "__main__":
     Input_path =  f'Dataset_NeckPass'
-    tmp_model_path = get_model_path(f"Overall")
+    tmp_model_path = get_model_path()
     test_scenario = os.listdir(Input_path)
     scenario_result = []
     for scenario in test_scenario:
