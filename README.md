@@ -78,6 +78,9 @@ D-4) Spoofing Attack
 ├── run_device.py
 └── run_location.py
 ```
+
+---
+
 # Reproducibility Instructions
 
 The experiments can be reproduced by following the steps below.
